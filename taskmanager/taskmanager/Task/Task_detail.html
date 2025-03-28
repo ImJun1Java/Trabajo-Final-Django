@@ -1,0 +1,6 @@
+<h2> Tarea Titulo </h2>
+  <p> Descripcion.Tarea </p>
+  <p>Creado en: task.created_at</p>
+  <p>Actualizado en:  task.updated_at</p>
+  <a href="{% url 'task_edit' task.pk %}">Edit</a>
+  <a href="{% url 'task_delete' task.pk %}">Delete</a>
